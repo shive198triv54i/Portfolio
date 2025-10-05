@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Single Page App Router</title>
+    <meta http-equiv="refresh" content="0; URL='/'" />
+    <script>
+      // Client-side redirect to support GitHub Pages SPA routing
+      (function () {
+        var l = window.location;
+        if (l.pathname && l.pathname !== '/') {
+          // Preserve path and query for client-side router
+          var redirect = '/' + (l.pathname + l.search + l.hash).replace(/^\//, '');
+          window.sessionStorage.setItem('ghspa_redirect', redirect);
+        }
+        l.replace('/');
+      })();
+    </script>
+  </head>
+  <body></body>
+  </html>
+
+
