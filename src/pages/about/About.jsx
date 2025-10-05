@@ -47,11 +47,10 @@ const About = () => {
             </h2>
             <Fade bottom>
               <p>
-                I am Shivesh Trivedi, a Full-Stack Developer with 1.8 years of experience, 
-                including a 4-month internship at Celebal Technology. I specialize in building 
-                scalable, high-performance web applications using .NET 8, ASP.NET Core, C#, SQL Server, 
-                React.js (TypeScript), as well as the Java ecosystem including Java, JSP, Servlets, 
-                Hibernate, and Spring.
+                I am Shivesh Trivedi, a Full-Stack Developer with 1.8 years of experience.
+                I specialize in building scalable, high-performance web applications using 
+                .NET 8, ASP.NET Core, C#, SQL Server, React.js (TypeScript), as well as the 
+                Java ecosystem including Java, JSP, Servlets,Hibernate, and Spring.
               </p>
             </Fade>
             <Fade bottom>

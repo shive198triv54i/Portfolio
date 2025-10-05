@@ -74,7 +74,7 @@ const Header = () => {
             />
           </h1>
 
-          <p className="text-desc">WEB DEVELOPER / UI/UX DESIGNER</p>
+          <p className="text-desc">Full-Stack Developer</p>
           <Link to="/contact" className="contact-button">
             <div>
               <span className="bg switch__bg"></span>
