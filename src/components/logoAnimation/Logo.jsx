@@ -1,7 +1,9 @@
 import React from 'react'
 import './logo.scss'
-import { DrawSVGPlugin } from 'gsap-trial/DrawSVGPlugin'
 import gsap from 'gsap'
+// import { DrawSVGPlugin } from 'gsap/DrawSVGPlugin'
+import { DrawSVGPlugin } from 'gsap/DrawSVGPlugin';
+
 
 const Logo = () => {
   const bgRef = React.useRef()
